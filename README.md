@@ -1,0 +1,1 @@
+https://github.com/joozero/k8s-manifest-repo
