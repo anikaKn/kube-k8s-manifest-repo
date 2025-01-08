@@ -63,7 +63,7 @@ data:
   cwagentconfig.json: |
     {
       "agent": {
-        "region": "us-east-1"
+        "region": "us-west-2"
       },
       "logs": {
         "metrics_collected": {
@@ -182,7 +182,7 @@ spec:
 apiVersion: v1
 data:
   cluster.name: eks-demo
-  logs.region: us-east-1
+  logs.region: us-west-2
   http.server: "On"
   http.port: "2020"
   read.head: "Off"

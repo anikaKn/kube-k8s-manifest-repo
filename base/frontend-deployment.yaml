@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: demo-frontend
-          image: 415718916760.dkr.ecr.us-east-1.amazonaws.com/aknys-demo-frontend:latest
+          image: 022698001278.dkr.ecr.us-west-2.amazonaws.com/aknys-demo-frontend:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 80
