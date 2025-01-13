@@ -9,7 +9,7 @@ images:
   newTag: abcdefg
 resources:
 - ../../base
-patchesStrategicMerge:
+patches:
 - front-deployment-patch.yaml
 - front-service-patch.yaml
 - ingress-patch.yaml

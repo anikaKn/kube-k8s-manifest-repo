@@ -19,14 +19,14 @@ metadata:
     alb.ingress.kubernetes.io/target-type: ip
     alb.ingress.kubernetes.io/backend-protocol: HTTP
     alb.ingress.kubernetes.io/ssl-policy: "ELBSecurityPolicy-2016-08"
-    alb.ingress.kubernetes.io/tags: "Environment=dev,GitOps=true,karpenter.sh/discovery=app-platform-dev" # TODO change ???
+    alb.ingress.kubernetes.io/tags: "Environment=dev,GitOps=true"
     alb.ingress.kubernetes.io/healthcheck-protocol: "HTTP"
     alb.ingress.kubernetes.io/healthcheck-path: "/"
     alb.ingress.kubernetes.io/healthcheck-interval-seconds: "30"
     alb.ingress.kubernetes.io/healthcheck-timeout-seconds: "5"
     alb.ingress.kubernetes.io/healthcheck-healthy-threshold-count: "2"
     alb.ingress.kubernetes.io/healthcheck-unhealthy-threshold-count: "2"
-    alb.ingress.kubernetes.io/group.name: "dev-ingress"
+    alb.ingress.kubernetes.io/group.name: "backend-ingress"
     alb.ingress.kubernetes.io/group.order: "1"
   # labels:
   #   env: dev
