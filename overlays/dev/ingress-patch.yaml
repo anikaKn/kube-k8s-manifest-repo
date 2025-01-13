@@ -28,8 +28,8 @@ metadata:
     alb.ingress.kubernetes.io/healthcheck-unhealthy-threshold-count: "2"
     alb.ingress.kubernetes.io/group.name: "dev-ingress"
     alb.ingress.kubernetes.io/group.order: "1"
-  labels:
-    env: dev
+  # labels:
+  #   env: dev
 spec:
   # Specify the use of the ALB Ingress Controller
   ingressClassName: alb
