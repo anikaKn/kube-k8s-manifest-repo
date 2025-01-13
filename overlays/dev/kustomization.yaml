@@ -12,3 +12,4 @@ resources:
 patchesStrategicMerge:
 - front-deployment-patch.yaml
 - front-service-patch.yaml
+- ingress.yaml
