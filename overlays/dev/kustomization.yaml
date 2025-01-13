@@ -1,6 +1,9 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 images:
+- name: 022698001278.dkr.ecr.us-west-2.amazonaws.com/aknys-demo-frontend
+  newName: 022698001278.dkr.ecr.us-west-2.amazonaws.com/aknys-demo-frontend
+  newTag: 366fdabd
 - name: 022698001278.dkr.ecr.us-west-2.amazonaws.com/demo-frontend
   newName: 022698001278.dkr.ecr.us-west-2.amazonaws.com/demo-frontend
   newTag: abcdefg
