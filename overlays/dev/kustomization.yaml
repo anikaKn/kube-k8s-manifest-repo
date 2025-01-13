@@ -3,7 +3,7 @@ kind: Kustomization
 images:
 - name: 022698001278.dkr.ecr.us-west-2.amazonaws.com/aknys-demo-frontend
   newName: 022698001278.dkr.ecr.us-west-2.amazonaws.com/aknys-demo-frontend
-  newTag: 69cfbd92
+  newTag: 366fdabd
 - name: 022698001278.dkr.ecr.us-west-2.amazonaws.com/demo-frontend
   newName: 022698001278.dkr.ecr.us-west-2.amazonaws.com/demo-frontend
   newTag: abcdefg
