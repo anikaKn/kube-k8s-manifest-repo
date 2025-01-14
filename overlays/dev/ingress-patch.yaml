@@ -51,4 +51,4 @@ spec:
               service:
                 name: demo-nodejs-backend
                 port:
-                  number: http
+                  name: http
