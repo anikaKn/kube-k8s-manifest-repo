@@ -13,3 +13,4 @@ patches:
 - path: front-deployment-patch.yaml
 - path: front-service-patch.yaml
 - path: ingress-patch.yaml
+- path: flask-deployment-patch.yaml
