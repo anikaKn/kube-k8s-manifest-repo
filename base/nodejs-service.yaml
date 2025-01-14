@@ -10,6 +10,7 @@ spec:
      app: demo-nodejs-backend
   type: NodePort
   ports:
-    - port: 8080
+    - name: http 
+      port: 8080
       targetPort: 3000
       protocol: TCP

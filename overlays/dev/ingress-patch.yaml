@@ -45,3 +45,10 @@ spec:
                 name: demo-frontend
                 port:
                   name: http
+          - path: /services
+            pathType: Prefix
+            backend:  
+              service:
+                name: demo-nodejs-backend
+                port:
+                  number: http
