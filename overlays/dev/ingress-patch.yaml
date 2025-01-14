@@ -36,12 +36,12 @@ spec:
   ingressClassName: alb
   rules:
     - host: itfuture.click
-      http:
-        paths:
-          - path: /
-            pathType: Prefix
-            backend:
-              service:
-                name: demo-frontend
-                port:
-                  name: 80
+      # http:
+      #   paths:
+      #     - path: /
+      #       pathType: Prefix
+      #       backend:
+      #         service:
+      #           name: demo-frontend
+      #           port:
+      #             name: 80
