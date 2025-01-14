@@ -1,15 +1,15 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: demo-flask-backend
+  name: demo-nodejs-backend
   namespace: default
   labels:
     env: dev
 spec:
   selector:
     matchLabels:
-      app: demo-flask-backend
+      app: demo-nodejs-backend
   template:
     metadata:
       labels:
-        app: demo-flask-backend
+        app: demo-nodejs-backend
